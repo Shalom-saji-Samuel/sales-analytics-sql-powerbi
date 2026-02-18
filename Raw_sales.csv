@@ -1,0 +1,81 @@
+Order_id,order_date,customer_name,product_name,category,quantity,unit_price,payment_method
+1,01-12-2025,John Hickey,Tomato ,Food,5,1.5,Cash
+2,02-12-2025,Tony Stark,Potato,Food,5,1,Card
+3,03-12-2025,Adam Levine,Chips,Food,3,2,Cash
+4,04-12-2025,Emily Doe,Salt,Food,5,2,Card
+5,05-12-2025,Bob Dylan,Soap,Hygine,10,1.75,Cash 
+6,06-12-2025,Bob Dylan,Television,Electronic,1,50,Credit
+7,07-12-2025,John Hickey,Tomato ,Food,5,1.5,Cash
+8,08-12-2025,John Hickey,Potato,Food,5,1,Card
+9,09-12-2025,Tony Stark,Chips,Food,3,2,Cash
+10,10-12-2025,Adam Levine,Salt,Food,5,2,Card
+11,11-12-2025,Emily Doe,Soap,Hygine,10,1.75,Cash
+12,12-12-2025,Bob Dylan,Television,Electronic,1,50,Card
+13,13-12-2025,Bob Dylan,Tomato ,Food,5,1.5,Cash 
+14,14-12-2025,John Hickey,Potato,Food,5,1,Credit
+15,15-12-2025,John Hickey,Chips,Food,3,2,Cash
+16,16-12-2025,Tony Stark,Salt,Food,5,2,Card
+17,17-12-2025,Adam Levine,Soap,Hygine,10,1.75,Cash
+18,18-12-2025,Emily Doe,Television,Electronic,1,50,Card
+19,19-12-2025,Bob Dylan,Tomato ,Food,5,1.5,Cash
+20,20-12-2025,Bob Dylan,Potato,Food,5,1,Card
+21,21-12-2025,John Hickey,Chips,Food,3,2,Cash 
+22,22-12-2025,John Hickey,Salt,Food,5,2,Credit
+23,23-12-2025,Tony Stark,Soap,Hygine,10,1.75,Cash
+24,24-12-2025,Adam Levine,Television,Electronic,1,50,Card
+25,25-12-2025,Emily Doe,Tomato ,Food,5,1.5,Cash
+26,26-12-2025,Bob Dylan,Potato,Food,5,1,Card
+27,27-12-2025,Bob Dylan,Chips,Food,3,2,Cash
+28,28-12-2025,John Hickey,Salt,Food,5,2,Card
+29,29-12-2025,John Hickey,Soap,Hygine,10,1.75,Cash 
+30,30-12-2025,Tony Stark,Television,Electronic,1,50,Credit
+31,31-12-2025,Adam Levine,Tomato ,Food,5,1.5,Cash
+32,01-01-2026,Emily Doe,Potato,Food,5,1,Card
+33,02-01-2026,Bob Dylan,Chips,Food,3,2,Cash
+34,03-01-2026,Bob Dylan,Salt,Food,5,2,Card
+35,04-01-2026,John Hickey,Soap,Hygine,10,1.75,Cash
+36,05-01-2026,John Hickey,Television,Electronic,1,50,Card
+37,06-01-2026,Tony Stark,Tomato ,Food,5,1.5,Cash 
+38,07-01-2026,Adam Levine,Potato,Food,5,1,Credit
+39,08-01-2026,Emily Doe,Chips,Food,3,2,Cash
+40,09-01-2026,Bob Dylan,Salt,Food,5,2,Card
+41,10-01-2026,Bob Dylan,Soap,Hygine,10,1.75,Cash
+42,11-01-2026,John Hickey,Television,Electronic,1,50,Card
+43,12-01-2026,John Hickey,Tomato ,Food,5,1.5,Cash
+44,13-01-2026,Tony Stark,Potato,Food,5,1,Card
+45,14-01-2026,Adam Levine,Chips,Food,3,2,Cash 
+46,15-01-2026,Emily Doe,Salt,Food,5,2,Credit
+47,16-01-2026,Bob Dylan,Soap,Hygine,10,1.75,Cash
+48,17-01-2026,Bob Dylan,Television,Electronic,1,50,Card
+49,18-01-2026,John Hickey,Tomato ,Food,5,1.5,Cash
+50,19-01-2026,John Hickey,Potato,Food,5,1,Card
+51,20-01-2026,Tony Stark,Chips,Food,3,2,Cash
+52,21-01-2026,Adam Levine,Salt,Food,5,2,Card
+53,22-01-2026,Emily Doe,Soap,Hygine,10,1.75,Cash 
+54,23-01-2026,Bob Dylan,Television,Electronic,1,50,Credit
+55,24-01-2026,Bob Dylan,Tomato ,Food,5,1.5,Cash
+56,25-01-2026,John Hickey,Potato,Food,5,1,Card
+57,26-01-2026,John Hickey,Chips,Food,3,2,Cash
+58,27-01-2026,Tony Stark,Salt,Food,5,2,Card
+59,28-01-2026,Adam Levine,Soap,Hygine,10,1.75,Cash
+60,29-01-2026,Emily Doe,Television,Electronic,1,50,Card
+61,30-01-2026,Bob Dylan,Tomato ,Food,5,1.5,Cash 
+62,31-01-2026,Bob Dylan,Potato,Food,5,1,Credit
+63,01-02-2026,John Hickey,Chips,Food,3,2,Cash
+64,02-02-2026,John Hickey,Salt,Food,5,2,Card
+65,03-02-2026,Tony Stark,Soap,Hygine,10,1.75,Cash
+66,04-02-2026,Adam Levine,Television,Electronic,1,50,Card
+67,05-02-2026,Emily Doe,Tomato ,Food,5,1.5,Cash
+68,06-02-2026,Bob Dylan,Potato,Food,5,1,Card
+69,07-02-2026,Bob Dylan,Chips,Food,3,2,Cash 
+70,08-02-2026,John Hickey,Salt,Food,5,2,Credit
+71,09-02-2026,John Hickey,Soap,Hygine,10,1.75,Cash
+72,10-02-2026,Tony Stark,Television,Electronic,1,50,Card
+73,11-02-2026,Adam Levine,Tomato ,Food,5,1.5,Cash
+74,12-02-2026,Emily Doe,Potato,Food,5,1,Card
+75,13-02-2026,Bob Dylan,Chips,Food,3,2,Cash
+76,14-02-2026,Bob Dylan,Salt,Food,5,2,Card
+77,15-02-2026,John Hickey,Soap,Hygine,10,1.75,Cash 
+78,16-02-2026,John Hickey,Television,Electronic,1,50,Credit
+79,17-02-2026,Tony Stark,Tomato ,Food,5,1.5,Cash
+80,18-02-2026,Adam Levine,Potato,Food,5,1,Card
