@@ -32,7 +32,7 @@ The final dashboard enables revenue monitoring, customer analysis, and product p
 - customers
 - products
 - payment_method
-- datetable (Power BI date dimension)
+- date table (Power BI date dimension)
 
 ---
 ## Data Modeling (SQL)
@@ -61,72 +61,58 @@ This mirrors a real ETL workflow at a small scale.
 These measures support trend analysis and executive reporting.
 
 --- 
+## Screenshots of Dashboard 
+- Overview page :
+<img width="1452" height="812" alt="image" src="https://github.com/user-attachments/assets/00e9bab7-9783-410e-a451-fb56979b7248" />
 
-📈 Dashboard Features
-Executive Overview Page
+- Customers drillthrough page, can be shown using the 'Customer details' button in overview : 
+<img width="1454" height="820" alt="image" src="https://github.com/user-attachments/assets/66c4d167-203c-4b77-a040-33b218c3145f" />
 
-KPI Cards (Revenue, Orders, AOV)
+- Tool tip in action , in the overview page : 
+<img width="1451" height="814" alt="image" src="https://github.com/user-attachments/assets/bff7a70f-393f-49f7-8b9b-8956ddd25cad" />
 
-Revenue trend over time (line chart)
 
-Revenue by product category (bar chart)
+## Dashboard Features
+- Executive Overview Page
+- KPI Cards (Revenue, Orders, AOV)
+- Revenue trend over time (line chart)
+- Revenue by product category (bar chart)
+- Revenue by payment method (bar chart)
+- Interactive slicers for time and category
+- Customer Analysis Page
+- Navigation via buttons
+- Customer-level purchase breakdown
+- Order details table
 
-Revenue by payment method (bar chart)
+### Advanced UX
+- Custom tooltip showing customer contribution using a donut chart
+- Controlled visual interactions for focused filtering : Slicers only affect specified visuals 
 
-Interactive slicers for time and category
+---
+## Key Insights
+- Electronics generated the highest revenue among product categories
+- Card payments contributed the largest share of revenue
+- Total revenue reached 1.26K from only 387 units sold, indicating higher-value transactions
 
-Customer Analysis Page
+---
+## Tools Used
+- MySQL → Data cleaning, transformation, star schema
+- Power BI → Data modeling, DAX, dashboard design
+- Excel → Synthetic data generation
 
-Navigation via buttons
+---
+## Business Use Case
+- This dashboard simulates a wholesale sales monitoring system where stakeholders can:
+- Track revenue trends
+- Identify top product categories
+- Analyze payment behavior
+- Drill into customer purchasing patterns
 
-Customer-level purchase breakdown
-
-Order details table
-
-Advanced UX
-
-Custom tooltip showing customer contribution using a donut chart
-
-Controlled visual interactions for focused filtering
-
-💡 Key Insights
-
-Electronics generated the highest revenue among product categories
-
-Card payments contributed the largest share of revenue
-
-Total revenue reached 1.26K from only 387 units sold, indicating higher-value transactions
-
-🛠️ Tools Used
-
-MySQL → Data cleaning, transformation, star schema
-
-Power BI → Data modeling, DAX, dashboard design
-
-Excel → Synthetic data generation
-
-🎯 Business Use Case
-
-This dashboard simulates a wholesale sales monitoring system where stakeholders can:
-
-Track revenue trends
-
-Identify top product categories
-
-Analyze payment behavior
-
-Drill into customer purchasing patterns
-
-🚀 Skills Demonstrated
-
-SQL data cleaning & transformation
-
-Star schema design
-
-Fact vs dimension modeling
-
-Time-intelligence DAX
-
-Interactive Power BI UX (tooltips, navigation, slicers)
-
-Business-focused insight generation
+---
+## Skills Demonstrated
+- SQL data cleaning & transformation
+- Star schema design
+- Fact vs dimension modeling
+- Time-intelligence DAX
+- Interactive Power BI UX (tooltips, navigation, slicers)
+- Business-focused insight generation
