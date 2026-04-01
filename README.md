@@ -1,67 +1,71 @@
-# SQL → Power BI Sales Analytics Workflow
+# Sales Analytics: SQL to Power BI Workflow
+
+---
+
 ## Project Overview
 
-This project demonstrates an end-to-end SQL → Power BI analytics workflow using a small wholesale-style sales dataset.
+This project demonstrates an **end-to-end sales analytics workflow**, transforming raw data into a structured star schema and delivering business insights through a Power BI dashboard.
 
-The goal was to simulate a real business scenario where raw transactional data is:
+The objective was to simulate a real-world scenario where data is:
 
--  Ingested into SQL
--  Cleaned and modeled into a star schema
--  Loaded into Power BI for KPI tracking and interactive analysis
+* Ingested and cleaned using SQL
+* Modeled into a star schema for efficient analysis
+* Visualized in Power BI for KPI tracking and decision-making
 
-The final dashboard enables revenue monitoring, customer analysis, and product performance tracking.
+The final dashboard enables stakeholders to monitor **revenue performance, customer behavior, and product trends**.
 
 ---
+
+## Business Questions
+
+1. How does revenue change over time? 
+2. Which product categories generate the most revenue?
+3. What payment methods contribute most to total revenue?
+4. How do customers differ in purchasing behavior?
+5. What are the key drivers of overall sales performance?
+
+---
+
+## Key Insights
+* **Revenue Change OVer time:** Revenue is extremely consistent , with most months showing similar revenue figures . 
+
+* **Product Performance:** Electronics generated the highest revenue among all product categories, indicating strong demand for high-value items.
+
+* **Payment Behavior:** Card payments contributed the largest share of total revenue, suggesting a preference for digital payment methods.
+
+* **Customer Difference:** 40 % of customers bring in  54.7% of revenue , showing no drastic difference in customer value . 
+
+* **Revenue Characteristics:** Total revenue reached approximately **1.26K from 387 units sold**, indicating a business model focused on **higher-value transactions rather than volume**.
+
+
+---
+
+## Tools Used
+
+* **MySQL** → Data cleaning, transformation, and star schema modeling
+* **Power BI** → Data modeling, DAX measures, and dashboard creation
+* **Excel** → Synthetic dataset generation
+
+---
+
 ## Dataset
 
-- Rows: 80
-- Time Period: Dec 2025 – Feb 2026
-- Grain: One row per order line (transaction level)
-
-### Fact Table — orders
-- OrderID (PK)
-- order_date
-- customer_id (FK)
-- product_id (FK)
-- method_id (FK)
-- quantity
-- unit_price
-- total_revenue (derived)
-
-### Dimension Tables
-- customers
-- products
-- payment_method
-- date table (Power BI date dimension)
+* Rows: 80
+* Time Period: Dec 2025 – Feb 2026
+* Grain: One row per order line (transaction level)
 
 ---
-## Data Modeling (SQL)
-- A raw → cleaned → star schema approach was used:
-### Cleaning & Transformation
-- Converted text dates → proper DATE format
-- Removed duplicate rows
-- Split raw data into fact and dimension tables
-- Created derived metric: total_revenue = quantity × unit_price
 
-This mirrors a real ETL workflow at a small scale.
+## Dashboard Features
 
---- 
-## Power BI Model
-- Implemented a **star schema**
-- One-to-many relationships from dimensions → fact table
-- Dedicated Date table for time intelligence
-### DAX Measures
-**Core business KPIs**:
-- Total Revenue
-- Total Orders
-- Average Order Value (AOV)
-- Month-over-Month Revenue %
-- Running Total Revenue
+* KPI cards (Total Revenue, Total Orders, Average Order Value)
+* Revenue trend over time
+* Revenue by product category
+* Revenue by payment method
+* Customer-level drill-through analysis
+* Interactive slicers for filtering
+* Custom tooltips for enhanced insights
 
-These measures support trend analysis and executive reporting.
-
---- 
-## Screenshots of Dashboard 
 - Overview page :
 <img width="1452" height="812" alt="image" src="https://github.com/user-attachments/assets/00e9bab7-9783-410e-a451-fb56979b7248" />
 
@@ -71,48 +75,15 @@ These measures support trend analysis and executive reporting.
 - Tool tip in action , in the overview page : 
 <img width="1451" height="814" alt="image" src="https://github.com/user-attachments/assets/bff7a70f-393f-49f7-8b9b-8956ddd25cad" />
 
-
-## Dashboard Features
-- Executive Overview Page
-- KPI Cards (Revenue, Orders, AOV)
-- Revenue trend over time (line chart)
-- Revenue by product category (bar chart)
-- Revenue by payment method (bar chart)
-- Interactive slicers for time and category
-- Customer Analysis Page
-- Navigation via buttons
-- Customer-level purchase breakdown
-- Order details table
-
-### Advanced UX
-- Custom tooltip showing customer contribution using a donut chart
-- Controlled visual interactions for focused filtering : Slicers only affect specified visuals 
-
 ---
-## Key Insights
-- Electronics generated the highest revenue among product categories
-- Card payments contributed the largest share of revenue
-- Total revenue reached 1.26K from only 387 units sold, indicating higher-value transactions
 
----
-## Tools Used
-- MySQL → Data cleaning, transformation, star schema
-- Power BI → Data modeling, DAX, dashboard design
-- Excel → Synthetic data generation
+## Conclusion
 
----
-## Business Use Case
-- This dashboard simulates a wholesale sales monitoring system where stakeholders can:
-- Track revenue trends
-- Identify top product categories
-- Analyze payment behavior
-- Drill into customer purchasing patterns
+This project demonstrates the ability to:
 
----
-## Skills Demonstrated
-- SQL data cleaning & transformation
-- Star schema design
-- Fact vs dimension modeling
-- Time-intelligence DAX
-- Interactive Power BI UX (tooltips, navigation, slicers)
-- Business-focused insight generation
+* Transform raw data into a structured analytical model
+* Apply star schema design principles in SQL
+* Build interactive dashboards for business decision-making
+* Extract and communicate meaningful insights from data
+
+It reflects a **complete end-to-end analytics workflow**, aligned with real-world business use cases.
