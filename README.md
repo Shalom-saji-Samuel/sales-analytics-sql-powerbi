@@ -27,7 +27,7 @@ The final dashboard enables stakeholders to monitor **revenue performance, custo
 ---
 
 ## Key Insights
-* **Revenue Change OVer time:** Revenue is extremely consistent , with most months showing similar revenue figures . 
+* **Revenue Change Over time:** Revenue is extremely consistent , with most months showing similar revenue figures . 
 
 * **Product Performance:** Electronics generated the highest revenue among all product categories, indicating strong demand for high-value items.
 
